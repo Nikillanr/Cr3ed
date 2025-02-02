@@ -1,0 +1,18 @@
+/* src/components/FileTable.css */
+.file-table {
+  margin: 20px;
+}
+
+.MuiTableCell-root {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.MuiTableCell-head {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.MuiTableRow-root:hover {
+  background-color: #ffebcc; /* Light orange hover effect */
+}

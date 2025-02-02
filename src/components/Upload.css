@@ -1,0 +1,112 @@
+/* src/components/Upload.css */
+.upload-container {
+  background-color: #2a2a2a; /* Darker background for container */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  color: #e0e0e0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.upload-title {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.file-input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.file-input {
+  display: none; /* Hide the actual file input */
+}
+
+.file-input-label {
+  background-color: #0099ff; /* Blue button for "Choose file" */
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.file-input-label:hover {
+  background-color: #007acc; /* Darker blue on hover */
+}
+
+.file-name {
+  margin-left: 15px;
+  color: #b0b0b0; /* Subtle text color for file name */
+}
+
+.upload-button {
+  background-color: #0099ff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.upload-button:hover {
+  background-color: #007acc;
+}
+
+.uploaded-file-container {
+  margin-top: 20px;
+}
+
+.uploaded-file-title {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.uploaded-file-link {
+  color: #4ba3ff;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.decrypt-button {
+  background-color: #0099ff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.decrypt-button:hover {
+  background-color: #007acc;
+}
+
+.decrypted-file-container {
+  margin-top: 20px;
+}
+
+.decrypted-file-title {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.decrypted-file-link {
+  color: #4ba3ff;
+  text-decoration: none;
+}

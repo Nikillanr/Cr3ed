@@ -1,0 +1,94 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  width: 250px;
+  background-color: #1e1e1e;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-logo {
+  padding: 20px;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #1e1e1e;
+  color: #3b82f6;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: #a0a0a0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-link:hover {
+  background-color: #2d2d2d;
+  color: #fff;
+}
+
+.sidebar-link.active {
+  background-color: #2d2d2d;
+  color: #fff;
+}
+
+.sidebar-icon {
+  color: #a0a0a0;
+}
+
+.sidebar-link:hover .sidebar-icon,
+.sidebar-link.active .sidebar-icon {
+  color: #fff;
+}
+
+/* Add styles for the List component */
+.MuiList-root {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Style ListItem components */
+.MuiListItem-root {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* Style ListItemText components */
+.MuiListItemText-root {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.MuiListItemText-primary {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Add a subtle border to separate sections */
+.sidebar::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #2d2d2d;
+  margin: 10px 0;
+}
+
+/* Add some padding to the bottom of the sidebar */
+.sidebar::after:last-child {
+  margin-bottom: 20px;
+}
+
+/* Adjust scrollbar for webkit browsers */
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #4a4a4a;
+  border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background-color: #1e1e1e;
+}

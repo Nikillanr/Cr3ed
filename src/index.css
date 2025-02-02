@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+
+.ant-typography {
+  color: #ffffff !important; /* Set text color to white */
+}
+
+.ant-typography h1 {
+  color: #ffffff !important; /* Set text color to white */
+}
+
+.ant-typography h2 {
+  color: #ffffff !important; /* Set text color to white */
+}
+
+.ant-typography h3 {
+  color: #ffffff !important; /* Set text color to white */
+}
+
+.ant-typography h4 {
+  color: #ffffff !important; /* Set text color to white */
+}
+
+.ant-typography h5 {
+  color: #ffffff !important; /* Set text color to white */
+}
+
+.ant-typography h6 {
+  color: #ffffff !important; /* Set text color to white */
+}
+
+.ant-form-item-label label{
+  color: #ffffff !important; /* Set text color to white */
+}

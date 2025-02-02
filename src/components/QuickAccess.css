@@ -1,0 +1,48 @@
+/* src/components/QuickAccess.css */
+.quick-access {
+  margin: 20px;
+  color: #e0e0e0;
+}
+
+.quick-access-title {
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.quick-access-card {
+  display: flex;
+  align-items: center;
+  background-color: #2a2a2a; /* Darker background for the card */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  color: #ffffff; /*Ensure text color inside card is white */
+}
+
+.quick-access-card:hover {
+  background-color: #c8c8c8; /* Slightly lighter background on hover */
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.6);
+}
+
+.file-icon {
+  color: #0099ff; /* Blue icon color */
+  font-size: 40px;
+  margin-right: 15px;
+}
+
+.quick-access-card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quick-access-card .MuiTypography-body1,
+.quick-access-card .MuiTypography-body2 {
+  color: #ffffff; /* Ensures all text inside card is white */
+}
+
+.quick-access-card .MuiTypography-body2 {
+  opacity: 0.8; /* Slightly faded for secondary text */
+}
